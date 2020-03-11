@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Josefin+Sans|Raleway|Roboto+Slab|Source+Sans+Pro&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Raleway", Sans-Serif;
+}
+
+section{
+	height: 100vh;
+	border: solid black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+/*start of main page */
+
+.crumbs ul {
+	float: right;
+	list-style-type: none;
+	margin-top: 15px;
+	position: fixed;
+	right: 0%;
+}
+
+.crumbs ul li{
+	display: inline-block;
+}
+
+.crumbs ul li a{
+	 text-decoration: none;
+	 color: #fff;
+	 padding: 5px 20px;
+	 border: 1px solid transparent;
+	 transition: 0.6s ease;
+	 border-radius: 5px;
+}
+
+.crumbs ul li a:hover{
+	background-color:#fff;
+	color: #000;
+}
+
+.crumbs ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+
+.title{
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%, 50%);
+}
+
+.title h1{
+	color: #fff;
+	font-size: 3em;
+	font-family: "Raleway", Sans-Serif;
+}
+
+/* end of main page */
+
+/*about section*/
+
+.about-section{
+	margin: 10%;
+	margin-top: 0%;
+}
+
+.about-section h1{
+	text-align: center;
+	color: #ddd;
+	font-size: 52px;
+}
+
+.about-section p{
+	color: #ddd;
+	font-size: 20px;
+	float: left;
+	margin: 9%;
+}
+
+/*end about section*/
+
+/*start of contact section*/
+
+.contact-btn{
+	 text-decoration: none;
+	 color: #fff;
+	 padding: 10px 30px;
+	 border: 1px solid transparent;
+	 transition: 0.5s ease;
+	 top: 30%;
+}
+
+.contact-btn:hover{
+	background-color:#fff;
+
+}
+
+.contact-section{
+	padding: 40px 0;
+}
+
+.contact-section h1{
+	text-align: center;
+	color: #ddd;
+	font-size: 52px;
+}
+
+.border{
+	width: 100px;
+	height: 10px;
+	background: #a9a9a9;
+	margin: 40px auto;
+}
+
+.contact-form{
+	max-width: 600px;
+	margin: auto;
+	padding: 0 10px;
+	overflow: hidden;
+}
+
+.contact-form-text{
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	margin: 16px 0;
+	border: 0;
+	background: #111;
+	padding: 20px 65px;
+	outline: none;
+	color: #ddd;
+	transition: 0.5s;
+}
+
+.contact-form-text:focus{
+	box-shadow: 0 0 10px 4px #34495e;
+}
+
+textarea.contact-form-text{
+	resize: none;
+	height: 120px;
+}
+
+.contact-form-btn{
+	border: 0;
+	background: #708090;
+	color: #000;
+	padding: 12px 50px;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: 0.5s;
+	font-size: 14px;
+	margin: 0 10px 0 10px;
+}
+
+.contact-form-btn:hover{
+	background: #a9a9a9;
+}
+
+/*end of contact section*/
+
+/*section left blank intentionally*/
+
+/*start of services section*/
+.wrapper{
+  margin-top: 50px;
+  text-align: center;
+  line-height: 20px;
+}
+
+.wrapper h1{
+  font-family: 'Raleway', sans-serif;
+  font-size: 52px;
+  margin-bottom: 25px;
+  letter-spacing: 2px;
+	color: #fff;
+}
+
+.wrapper h1+p{
+  width: 60%;
+  margin: 0 auto 20px;
+  color: #fff;
+}
+
+.wrapper .pricing-wrapper{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.wrapper .pricing-wrapper .pricing-item{
+  background: linear-gradient(#F0F8FF,#F0FFFF);
+  margin: 5px 10px;
+  margin-bottom: 50px;
+  width: 200px;
+  padding: 30px 20px;
+  box-shadow: 0 0 2px rgba(0,0,0,0.25);
+	border-radius: 5px;
+}
+
+.wrapper .pricing-wrapper .pricing-item h3{
+  font-size: 26px;
+}
+
+.wrapper .pricing-wrapper .pricing-item p.money{
+  margin: 50px 0 20px;
+  font-size: 52px;
+  color: #6A5ACD;
+}
+
+.wrapper .pricing-wrapper .pricing-item p.money span{
+  font-size: 12px;
+  color: #696969;
+}
+
+.wrapper .pricing-wrapper .pricing-item p{
+  color: #483D8B;
+}
+
+.wrapper .pricing-wrapper .pricing-item a.pay-btn{
+  display: block;
+  margin-top: 100px;
+  text-decoration: none;
+  color: #fff;
+  background: #6A5ACD;
+  padding: 10px 0 20px;
+  border-radius: 10px;
+	transition: 0.5s;
+}
+
+.wrapper .pricing-wrapper .pricing-item a.pay-btn:hover{
+	background-color: #7B68EE;
+}
+
+
+/*end of service section*/
+
+/*wallpapers */
+#home{
+	background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('http://www.aljanh.net/data/archive/img/525594803.jpeg');
+	background-size: cover;
+	background-position: center;
+}
+
+#services{
+	background-position: center;
+	background-size: cover;
+	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('http://www.aljanh.net/data/archive/img/1446428337.jpeg')
+}
+
+#about{
+	background-image:url('https://hdqwalls.com/wallpapers/dots-dark-4k-vi.jpg')
+}
+
+#contact{
+	background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://wallpapercave.com/wp/wp5046160.jpg')
+}
+
+/*end of wallpaper*/
