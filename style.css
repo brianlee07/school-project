@@ -248,7 +248,7 @@ textarea.contact-form-text{
 
 /*wallpapers */
 #home{
-	background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('http://www.aljanh.net/data/archive/img/525594803.jpeg');
+	background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://hdqwalls.com/wallpapers/dots-dark-4k-vi.jpg');
 	background-size: cover;
 	background-position: center;
 }
@@ -256,7 +256,7 @@ textarea.contact-form-text{
 #services{
 	background-position: center;
 	background-size: cover;
-	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('http://www.aljanh.net/data/archive/img/1446428337.jpeg')
+	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://hdqwalls.com/wallpapers/dots-dark-4k-vi.jpg')
 }
 
 #about{
